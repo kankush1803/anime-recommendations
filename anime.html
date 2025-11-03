@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anime Recommendations</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+
+ 
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">+Plus</div>
+      <div>
+        <h1>Anime Recs</h1>
+        <p class="lead">Hand-picked animes </p>
+      </div>
+    </div>
+    <nav>
+      <a href="#top" class="primary">Discover</a>
+      <a href="#genres">Genres</a>
+      <a href="#top-10">Top 10</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-card">
+      <h2 style="margin:0 0 9px 0">Find your next anime</h2>
+      <p class="lead">Browse and picks by mood, genre, and story length.</p>
+
+      <div class="search" role="search" aria-label="Search animes">
+        <input type="search" placeholder="Search by title or tag"  aria-label="Search animes">
+        <button>Search</button>
+      </div>
+
+      <div class="filters" aria-hidden="false">
+        <div class="chip">Action</div>
+        <div class="chip">Drama</div>
+        <div class="chip">Sci-fi</div>
+        <div class="chip">Romance</div>
+        <div class="chip">Short (≤ 25 ep)</div>
+        <div class="chip">Long (50+ ep)</div>
+      </div>
+    </div>
+
+    <aside class="hero-card">
+      <h3 style="margin:0 0 8px 0">How to use</h3>
+      <p class="lead" style="font-size:13px">Pick a mood, then choose a show. Each card includes genre, length, and a short reason to watch.</p>
+
+      <div style="margin-top:12px;display:flex;gap:8px;flex-direction:column">
+        <div class="chip">&#128165 Great Action — Attack on Titan, One Punch Man</div>
+        <div class="chip">&#128557 Emotional Stories — Your Lie in April, Grave of the Fireflies</div>
+        <div class="chip">&#129568 Mind-benders — Steins;Gate, Serial Experiments Lain</div>
+      </div>
+    </aside>
+  </section>
+
+  <main>
+    <section id="recommendations">
+      <div class="grid" role="list">
+<!-- 
+        card 1 -->
+      <article class="card">
+         <div class="poster">
+           <img src="https://img3.hulu.com/user/v3/artwork/15917662-915a-4188-b560-a073406445e5?base_image_bucket_name=image_manager&base_image=93e63774-6f96-4f49-8ea9-fd1043576c4f&size=600x338&format=webp" alt="Fullmetal Alchemist Brotherhood poster">
+         </div>
+         <div class="poster p2">
+            <div style="font-size:28px">&#127810</div>
+            <div class="tag">2009 • 64 ep</div>
+          </div>
+         <h3 class="title">Fullmetal Alchemist: Brotherhood</h3>
+         <p class="desc">Epic fantasy, tight plot, and excellent character arcs — nearly a perfect balance of action and heart.</p>
+         <div class="meta">
+           <div class="badges">
+             <span class="badge">Action</span>
+             <span class="badge">Fantasy</span>
+             <span class="badge">Adventure</span>
+           </div>
+           <div style="font-weight:700">9.2/10</div>
+        </div>
+      </article>
+
+
+        <!-- card 2 -->
+        <article class="card" role="listitem" aria-labelledby="t2">
+          <div class="poster">
+            <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GR751KNZY-backdrop_wide" alt="Attack on Titan poster">
+          </div>
+          <div class="poster p2">
+            <div style="font-size:28px">&#128737</div>
+            <div class="tag">2013 • 87 ep</div>
+          </div>
+          <h3 id="t2" class="title">Attack on Titan</h3>
+          <p class="desc">Dark, intense, and full of twists. Great for viewers who want high stakes and political intrigue.</p>
+          <div class="meta">
+            <div class="badges">
+              <span class="badge">Action</span>
+              <span class="badge">Drama</span>
+              <span class="badge">Mystery</span>
+            </div>
+            <div style="font-weight:700">8.9/10</div>
+          </div>
+        </article>
+
+        <!-- card 3 -->
+        <article class="card" role="listitem" aria-labelledby="t3">
+          <div class="poster">
+            <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GYWE7W5GY-backdrop_wide" alt="Steins;Gate">
+          </div>
+          <div class="poster p3">
+            <div style="font-size:28px">&#127756</div>
+            <div class="tag">2011 • 24 ep</div>
+          </div>
+          <h3 id="t3" class="title">Steins;Gate</h3>
+          <p class="desc">A masterful sci-fi thriller that slowly builds tension — best enjoyed without spoilers.</p>
+          <div class="meta">
+            <div class="badges">
+              <span class="badge">Sci‑fi</span>
+              <span class="badge">Thriller</span>
+              <span class="badge">Drama</span>
+            </div>
+            <div style="font-weight:700">9.1/10</div>
+          </div>
+        </article>
+
+        <!-- card 4 -->
+        <article class="card" role="listitem" aria-labelledby="t4">
+          <div class="poster">
+            <img src="https://i.ytimg.com/vi/xU47nhruN-Q/maxresdefault.jpg" alt="Your Name">
+          </div>
+          <div class="poster p4">
+            <div style="font-size:28px">&#128532</div>
+            <div class="tag">2016 • Movie</div>
+          </div>
+          <h3 id="t4" class="title">Your Name (Kimi no Na wa)</h3>
+          <p class="desc">A beautifully animated romantic fantasy movie — emotional and visually stunning.</p>
+          <div class="meta">
+            <div class="badges">
+              <span class="badge">Romance</span>
+              <span class="badge">Drama</span>
+              <span class="badge">Movie</span>
+            </div>
+            <div style="font-weight:700">8.8/10</div>
+          </div>
+        </article>
+
+        <!-- card 5 -->
+        <article class="card" role="listitem" aria-labelledby="t5">
+          <div class="poster">
+            <img src="https://images8.alphacoders.com/669/thumb-1920-669047.png" alt="One Punch Man">
+          </div>
+          <div class="poster p5">
+            <div style="font-size:28px">&#129354</div>
+            <div class="tag">2015 • 24 ep</div>
+          </div>
+          <h3 id="t5" class="title">One Punch Man</h3>
+          <p class="desc">A hilarious and action-packed deconstruction of superhero tropes — great for a light binge.</p>
+          <div class="meta">
+            <div class="badges">
+              <span class="badge">Comedy</span>
+              <span class="badge">Action</span>
+            </div>
+            <div style="font-weight:700">8.6/10</div>
+          </div>
+        </article>
+
+        <!-- card 6 -->
+        <article class="card" role="listitem" aria-labelledby="t6">
+          <div class="poster">
+            <img src="https://m.media-amazon.com/images/S/pv-target-images/2d91f2d189f181e31a98bd6573977619ed1e0b8425905b8ba2df17ad6b4ccb07.jpg" alt="Attack on Titan poster">
+          </div>
+          <div class="poster p6">
+            <div style="font-size:28px">&#127891</div>
+            <div class="tag">2016 • ongoing</div>
+          </div>
+          <h3 id="t6" class="title">My Hero Academia</h3>
+          <p class="desc">Shonen action with strong character growth, great for viewers who like long-running heroic stories.</p>
+          <div class="meta">
+            <div class="badges">
+              <span class="badge">Shonen</span>
+              <span class="badge">Action</span>
+            </div>
+            <div style="font-weight:700">8.2/10</div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>Made with &#10084;&#65039; • Want more? Ask to add filters, more titles, or a watchlist feature.</p>
+    </footer>
+  </main>
+</body>
+</html>
