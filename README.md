@@ -1,3 +1,4 @@
+# anime-recommendations
 # 🌸 Anime Recommendations Website
 
 Hey there, fellow anime fan! 👋  
