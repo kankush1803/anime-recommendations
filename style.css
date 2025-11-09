@@ -20,6 +20,7 @@
     header{
       display:flex;
       gap:16px;
+      position: sticky;
       align-items:center;
       justify-content:space-between;
       margin-bottom:22px;
@@ -119,12 +120,28 @@
         border-radius:12px;
         border:1px solid rgba(255,255,255,0.02);}
 
-    .card:hover::before{opacity:1;filter:blur(18px);}
+    .card:hover::before{
+        opacity:1;
+        filter:blur(18px);
+    }
     .card:hover{transform:translateY(-6px) scale(1.03);}
-    .card:hover .title{color:#f17f7f;}
+    .card:hover .title{
+        color:#f17f7f;
+    }
    main{margin-top:10px}
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .card{background:rgba(255,255,255,0.03);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.05);transition:all 0.3s ease;position:relative;overflow:hidden;}
+    .grid{display:grid;
+        
+        grid-template-columns:repeat(3,1fr);
+        gap:18px}
+    .card{background:rgba(255,255,255,0.03);
+        padding:14px;
+        border-radius:12px;
+        border:1px solid rgba(255,255,255,0.05);
+        transition:all 0.3s ease;
+        
+        position:relative;
+        overflow:hidden;
+    }
     .card::before{
     content:"";
     position:absolute;
@@ -165,11 +182,21 @@
         font-size:12px;
         color:var(--muted)}
 
+    .poster a {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    }
+    .poster img {
+    pointer-events: auto;
+    }
+
     
     footer{
         margin-top:22px;
         color:var(--muted);
         font-size:13px}
+        
 
 
 
