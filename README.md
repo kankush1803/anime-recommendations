@@ -44,3 +44,9 @@ Everything scales nicely on phones and tablets too — so you can browse comfort
 
 ## 📁 Folder Structure
 
+
+anime-recommendations/
+│
+├── index.html → Main HTML file
+├── style.css → All the styling
+└── README.md → This file
