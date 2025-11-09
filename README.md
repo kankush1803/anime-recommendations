@@ -1,9 +1,9 @@
 # anime-recommendations
 # 🌸 Anime Recommendations Website
 
-Hey there, fellow anime fan! 👋  
+Hey there, fellow anime fan! gi  
 This is a simple yet beautiful **Anime Recommendation Website** I built using **HTML** and **CSS**.  
-It’s designed to help you discover amazing anime shows — whether you’re in the mood for action, drama, or something that’ll make you cry (yep, I see you, *Your Lie in April* fans 🥲).
+It’s designed to help you discover amazing anime shows — whether you’re in the mood for action, drama, or something that’ll make you cry (yep, I see you, *Your Lie in April* fans ).
 
 ---
 
@@ -15,7 +15,7 @@ The website shows a collection of hand-picked anime recommendations with:
 - Ratings and number of episodes  
 - Links to where you can watch or learn more  
 
-It also has a clean dark theme with soft glowing cards — perfect for anime vibes at night 🌙.
+It also has a clean dark theme with soft glowing cards — perfect for anime vibes at night .
 
 ---
 
@@ -26,7 +26,7 @@ It also has a clean dark theme with soft glowing cards — perfect for anime vib
 - **Google Fonts (Inter)** → For a modern, readable font  
 - **Flexbox & Grid** → To make everything responsive and neatly arranged  
 
-No frameworks. Just clean, simple code ❤️
+No frameworks. Just clean, simple code 
 
 ---
 
@@ -36,7 +36,7 @@ The page has:
 - A **header** with a glowing logo and navigation links  
 - A **search section** to find animes by title or mood  
 - A **grid of anime cards** with images, ratings, and genres  
-- A **footer** made for anime lovers ❤️  
+- A **footer** made for anime lovers 
 
 Everything scales nicely on phones and tablets too — so you can browse comfortably from anywhere.
 
